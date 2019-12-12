@@ -28,7 +28,7 @@ namespace SeleniumDemo
             //assert
             Assert.IsTrue(_browserDriver.PageSource.Contains("admin"));
             Assert.IsTrue(_browserDriver.PageSource.Contains("Salir"));
-            Assert.IsTrue(_browserDriver.PageSource.Contains("Bienvenido administrador"));
+            //Assert.IsTrue(_browserDriver.PageSource.Contains("Bienvenido administrador"));
         }
     }
 }
