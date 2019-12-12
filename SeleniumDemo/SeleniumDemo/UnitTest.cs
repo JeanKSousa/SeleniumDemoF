@@ -14,7 +14,7 @@ namespace SeleniumDemo
         private RemoteWebDriver _browserDriver;
         [TestMethod]
         
-        public void Inicializacion()
+        public void Inicializacion1()
         {
             //arranque
             _browserDriver = new ChromeDriver();
